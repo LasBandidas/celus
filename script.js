@@ -55,8 +55,6 @@ const PRODUCTS = (() => {
   const templates = [
     { cat:"fundas", icon:"📱", base:"Funda MagSafe", price:9990, brands:["ESR","Spigen","Apple","Baseus"] },
     { cat:"fundas", icon:"📱", base:"Funda Silicona", price:6990, brands:["Samsung","Xiaomi","Motorola"] },
-    { cat:"vidrios", icon:"🛡️", base:"Vidrio Templado 9H", price:3990, brands:["ESR","Spigen","Baseus"] },
-    { cat:"vidrios", icon:"🛡️", base:"Vidrio Antiespía", price:5990, brands:["ESR","Spigen"] },
     { cat:"cargadores", icon:"⚡", base:"Cargador GaN 65W", price:24990, brands:["Anker","Ugreen","Baseus"] },
     { cat:"cargadores", icon:"⚡", base:"Cargador Inalámbrico 15W", price:15990, brands:["Anker","Baseus","Apple"] },
     { cat:"auriculares", icon:"🎧", base:"Auriculares TWS Pro", price:39990, brands:["JBL","Apple","Samsung","Xiaomi"] },
