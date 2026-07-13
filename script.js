@@ -15,7 +15,6 @@
 /* ---------- 1) DATA ---------- */
 const CATEGORIES = [
   { id:"fundas", name:"Fundas", icon:"📱" },
-  { id:"vidrios", name:"Vidrios", icon:"🛡️" },
   { id:"cargadores", name:"Cargadores", icon:"⚡" },
   { id:"auriculares", name:"Auriculares", icon:"🎧" },
   { id:"powerbank", name:"Power Bank", icon:"🔋" },
@@ -25,8 +24,8 @@ const CATEGORIES = [
   { id:"cables", name:"Cables", icon:"🧵" },
 ];
 
-const BRANDS = ["Apple","Samsung","Motorola","Xiaomi","Huawei","Realme","Google Pixel","Anker","JBL","Baseus","Ugreen","ESR","Spigen"];
-const COMPATS = ["iPhone","Samsung","Moto G","Moto Edge","Redmi","POCO","Universal"];
+const BRANDS = ["Apple","Samsung","Motorola","Huawei","JBL"];
+const COMPATS = ["iPhone","Samsung","Moto G","Moto Edge","Redmi","Universal"];
 const COLORS = [
   { id:"black", name:"Negro", hex:"#111" },
   { id:"white", name:"Blanco", hex:"#eee" },
