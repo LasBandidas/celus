@@ -263,10 +263,16 @@ function renderOffers(){
   bindCardEvents($("#offersTrack"));
   // Nav
   const track = $("#offersTrack");
-  $(".carousel__nav--prev","#offersCarousel").addEventListener("click", ()=>track.scrollBy({left:-300,behavior:"smooth"}));
-  $(".carousel__nav--next","#offersCarousel").addEventListener("click", ()=>track.scrollBy({left:300,behavior:"smooth"}));
-}
+ const carousel = $("#offersCarousel");
 
+$(".carousel__nav--prev", carousel).addEventListener("click", () =>
+    track.scrollBy({ left: -300, behavior: "smooth" })
+);
+
+$(".carousel__nav--next", carousel).addEventListener("click", () =>
+    track.scrollBy({ left: 300, behavior: "smooth" })
+);
+}
 function bindCardEvents(root){
   $$(".js-add", root).forEach(b => b.addEventListener("click", e => {
     const id = +e.target.closest(".card").dataset.id;
