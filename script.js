@@ -49,7 +49,112 @@ function svgImage(icon, colorA="#a855f7", colorB="#22d3ee"){
 }
 
 // Genero un catálogo grande combinatorio
-const PRODUCTS = (() => {
+const PRODUCTS = [
+{
+    id:1,
+    name:"Funda MagSafe iPhone 16 Pro",
+    brand:"Apple",
+    category:"fundas",
+    compat:"iPhone 16 Pro",
+    color:"negro",
+    colorHex:"#111111",
+
+    price:14990,
+    oldPrice:17990,
+
+    discount:17,
+
+    stock:20,
+
+    rating:4.8,
+
+    reviews:57,
+
+    isNew:true,
+
+    isOffer:true,
+
+    material:"Silicona",
+
+    image:svgImage("📱","#22d3ee","#7c3aed"),
+
+    desc:"Funda premium con MagSafe."
+},
+{
+    id:2,
+    name:"Cable USB-C 100W",
+
+    brand:"Ugreen",
+
+    category:"cables",
+
+    compat:"Universal",
+
+    color:"blanco",
+
+    colorHex:"#ffffff",
+
+    price:8990,
+
+    oldPrice:null,
+
+    discount:0,
+
+    stock:18,
+
+    rating:4.7,
+
+    reviews:31,
+
+    isNew:false,
+
+    isOffer:false,
+
+    material:"Nylon",
+
+    image:svgImage("🧵","#3b82f6","#22d3ee"),
+
+    desc:"Cable USB-C reforzado de 100W."
+},
+{
+    id:3,
+
+    name:"Power Bank 20.000 mAh",
+
+    brand:"Anker",
+
+    category:"powerbank",
+
+    compat:"Universal",
+
+    color:"gris",
+
+    colorHex:"#999999",
+
+    price:45990,
+
+    oldPrice:49990,
+
+    discount:8,
+
+    stock:12,
+
+    rating:5,
+
+    reviews:102,
+
+    isNew:true,
+
+    isOffer:true,
+
+    material:"Aluminio",
+
+    image:svgImage("🔋","#ec4899","#7c3aed"),
+
+    desc:"Power Bank de carga rápida."
+}
+];
+ = (() => {
   const items = [];
   let id = 1;
   const templates = [
